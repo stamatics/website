@@ -684,7 +684,7 @@ section {
   color: #fff;
 }
 
-.twitter-icon .fa-twitter {
+.twitter-icon .fa-quora {
   font-size: 24px;
   height: 64px;
   width: 64px;
@@ -693,7 +693,7 @@ section {
   position: relative;
 }
 
-.twitter-icon .fa-twitter:after {
+.twitter-icon .fa-quora:after {
   position: absolute;
   content: "";
   border-width: 8px;
