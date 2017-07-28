@@ -679,6 +679,7 @@ section {
 }
 
 .twitter-icon {
+  margin-top: -5em;
   position: relative;
   z-index: 15;
   color: #fff;
