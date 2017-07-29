@@ -16,9 +16,9 @@
 
   <style type="text/css">
     body {
-      background-image: url("images/team.jpg");
+      background-image: url("images/twitter-bg.jpg");
       background-repeat: no-repeat;
-      background-color: #cccccc;
+      background-color: rgba(0, 0, 0, 0.03);
       background-size: 100%;
       background-attachment: fixed;
     }
@@ -56,7 +56,6 @@
           <li class="scroll"><a href="about.html">About Us</a></li>
           <li class="scroll"><a href="portfolio.html">Portfolio</a></li>
           <li class="scroll"><a href="team.html">Team</a></li>
-          <li class="scroll"><a href="blog.html">Blog</a></li>
           <li class="scroll active"><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -66,8 +65,7 @@
 
 
 <section id="contact">
-  <!--    <div id="google-map" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms"
-  data-wow-delay="400ms"></div> -->
+
   <div id="contact-us" class="parallax">
     <div class="container">
       <div class="row">
@@ -79,30 +77,9 @@
       <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
         <div class="row">
           <div class="col-sm-6">
-            <form id="main-contact-form" name="contact-form" method="post" action="#">
-              <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" placeholder="Name" required="required">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
-              </div>
-              <div class="form-group">
-                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message"
-                          required="required"></textarea>
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn-submit">Send Now</button>
-              </div>
-            </form>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcb6oxAE3nDkRNoTDq4Do-zo&key=AIzaSyAEY-S_-l1ek83-pnTc6vL1EfpmFhqICkA" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
           </div>
           <div class="col-sm-6">
             <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
