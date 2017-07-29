@@ -573,10 +573,17 @@ section {
   background-color: #ff6b00;
 }
 
-#team .img-responsive {
-  width: 100%;
+.coordinator .img-responsive {
+  width: 100%;                  /*  <---------------------------------------------  Need to tweak the sizes */
   height: 250px;
-    border-radius: 20%;
+  border-radius: 20%;
+}
+
+.piyush .img-responsive {
+  margin: auto;
+  width: 270px;
+  height: 250px;
+  border-radius: 20%;
 }
 
 .member-info h3 {
