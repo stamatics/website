@@ -911,6 +911,10 @@ ul.address {
   padding: 0;
 }
 
+ul.address li span {
+  font-weight: bold;
+}
+
 .contact-info ul li {
   margin-bottom: 8px;
 }
