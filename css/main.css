@@ -998,5 +998,9 @@ ul.address li span {
 /*Presets*/
 
 .newsletter {
+  transition: box-shadow 0.2s;
+}
 
+.newsletter:hover {
+  box-shadow: 10px 10px 0 rgba(54, 234, 247, 0.5);
 }
