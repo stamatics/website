@@ -260,6 +260,10 @@ section {
   animation: bounce 3000ms infinite;
 }
 
+.main-nav .container-fluid {
+  background-color: #2ac6f7;
+}
+
 .navbar-right li a {
   color: #fff;
   text-transform: uppercase;
@@ -273,17 +277,20 @@ section {
   background-color: rgba(0,0,0,.2);
 }
 
+.navbar-collapse ul li:hover {
+  background-color: #1b98c6;
+}
+
 .stamatics-logo {
     padding-top: 0;
 }
 
 .stamatics-logo img{
-    padding-top: 20px;
-    padding-bottom: 10;
+    padding-top: 10px;
     margin-bottom: 0;
     margin-left: 0;
-    height: 3em;
-    width: 4em;
+    height: 3.3em;
+    width: 4.5em;
 }
 /*************************
 ********Service CSS*******
@@ -939,6 +946,10 @@ ul.address li span {
 .footer-top {
   position: relative;
   padding:30px 0
+}
+
+.footer-top div div div p {
+  font-size: 1.3em;
 }
 
 #footer .footer-bottom {
