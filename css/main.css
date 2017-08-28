@@ -593,6 +593,12 @@ section {
   border-radius: 20%;
 }
 
+.single-mathemania .img-responsive {
+  margin: auto;
+  width: 270px;
+  height: 100%;
+}
+
 .member-info h3 {
   margin-top: 2px;
   margin-bottom: 0px;
