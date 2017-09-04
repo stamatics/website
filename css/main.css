@@ -1050,3 +1050,7 @@ ul.address li span {
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
 }
+
+.leaderboard-table tr th {
+  text-align: center;
+}
